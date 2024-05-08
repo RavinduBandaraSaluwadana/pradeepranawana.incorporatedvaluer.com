@@ -111,3 +111,21 @@ footer {
     color: #007bff; /* Bullet point color */
     font-weight: bold; /* Bold font for bullet points */
 }
+
+/* Responsive Styles */
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .left, .right {
+        width: calc(50% - 20px); /* Adjust margin */
+        padding: 20px;
+    }
+
+    .right {
+        margin-left: 20px; /* Adjust margin */
+    }
+}
