@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script>
+		function openReviewForm() {
+            // Replace 'YOUR_PLACE_ID' with the actual place ID
+            var placeId = 'ChIJxfWZQm9p4zoRp4w7fsuPh6w';
+            var reviewUrl = 'https://search.google.com/local/writereview?placeid=' + placeId;
+            window.open(reviewUrl, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <header>
+                <h1>Vlr. S.R.W.M.D.Pradeep Ranawana</h1>
+                <h2>Incorporated Valuer</h2>
+                <p>B.Sc(Special) Estate Management & Valuation Member, of Institute Of Valuers - Sri Lanka, LICA. MAAT, Govt. Valuer (Valuation Dept)</p>
+            </header>
+
+            <section id="services">
+                <h3>Services</h3>
+                <ul>
+                    <li>Mortgage Valuation</li>
+                    <li>Sale Purpose Valuation</li>
+                    <li>Purchasing Purpose Valuation</li>
+                    <li>Visa Purpose (Embassy Valuation)</li>
+                    <li>Asset Valuation (Account Purpose)</li>
+                    <li>House Plan Drawing</li>
+                    <li>B.O.Q & Estimates</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h3>Contact Me</h3>
+                <ul>
+                    <li><a href="tel:0714858311"><i class="fas fa-phone"></i> 0714858311</a></li>
+                    <li><a href="tel:0772455142"><i class="fas fa-phone"></i> 0772455142</a></li>
+                    <li><a href="tel:0812386895"><i class="fas fa-phone"></i> 0812386895</a></li>
+                    <li><a href="mailto:srwmdpradeep@gmail.com"><i class="fas fa-envelope"></i> srwmdpradeep@gmail.com</a></li>
+                    <li><a href="https://www.facebook.com/pradeep.ranawana.3"><i class="fab fa-facebook"></i> Facebook Profile</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right">
+            <h1>Google Reviews</h1>
+			<div class="center-button">
+				<button class="custom-button" onclick="openReviewForm()">Leave a Google Review</button>
+            </div>
+			<script src="https://widget.trustmary.com/4PHiIQAic"></script>
+			<div id="reviews"></div>
+        </div>
+    </div>
+    
+    <section id="map">
+        <h3>Location</h3>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=145%20C%2C%20Ranawana%2C%20Pilimathalawa%2C%20Sri%20Lanka&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://www.pureblack.de">webdesign: www.pureblack.de</a>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Vlr. S.R.W.M.D.Pradeep Ranawana</p>
+    </footer>
+</body>
+</html>
